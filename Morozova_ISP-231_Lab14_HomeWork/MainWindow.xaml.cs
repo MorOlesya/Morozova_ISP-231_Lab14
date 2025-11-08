@@ -9,14 +9,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace InvoiceManagement
+namespace Morozova_ISP_231_Lab14_HomeWork
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            MainContent.Content = new LoginView();
         }
     }
 }
